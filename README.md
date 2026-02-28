@@ -1,15 +1,19 @@
-# Sistema de Notas por Usuario (UT5)
+# Sistema de Notas por Usuario – UT5.1 (Consola + Ficheros)
 
-## Descripción
-Aplicación de consola en Java que permite:
-- Registrarse e iniciar sesión
-- Crear, listar, ver y eliminar notas
-- Todo se guarda en ficheros (persistencia)
+Aplicación de consola en Java que permite registrar usuarios, iniciar sesión y gestionar notas personales con persistencia en ficheros de texto.
 
-Cumple el **100% de los mínimos** + estructura recomendada.
+## Objetivo de la actividad
+Cumplir los **mínimos obligatorios** de la actividad de evaluación UT5.1:
+- Registro e inicio de sesión
+- Menú de usuario con gestión de notas
+- Persistencia usando ficheros de texto
+- Uso de `java.nio.file` y `try-with-resources`
+- Validaciones y manejo básico de errores
+- Código organizado en métodos
 
-## Cómo ejecutar
-1. Compilar: `javac SistemaNotas.java`
-2. Ejecutar: `java SistemaNotas`
+## Cómo compilar y ejecutar
+Desde la raíz del proyecto:
 
-## Estructura
+```bash
+javac src/SistemaNotas.java
+java -cp src SistemaNotas
